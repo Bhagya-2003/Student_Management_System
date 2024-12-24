@@ -10,7 +10,7 @@ public class StudentManagement {
         int ch;
         do {
             // Display menu with options
-        	System.out.println("");
+        	System.out.println("Choose any One");
             System.out.println("1 INSERT");
             System.out.println("2 DISPLAY");
             System.out.println("3 SEARCH");
@@ -136,7 +136,7 @@ public class StudentManagement {
                     System.out.println("Invalid choice, please try again.");
                     break;
             }
-        } while (ch != 0);  // Continue until the user chooses 0 to exit
+        } while (ch != 0);  
     }
 }
     
